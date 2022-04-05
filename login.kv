@@ -1,0 +1,30 @@
+BoxLayout:
+    orientation:'vertical'
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text: "Login Program"
+            font_size: 28
+        Label:
+            text: "E-mail"
+        TextInput:
+            text: 'Enter Your mail'
+            size_hint:(1, 0.9)
+            multiline: False
+        Label:
+            text: "Password"
+        TextInput:
+            text: 'Enter Your Password'
+            size_hint:(1, 0.9)
+            multiline: False
+        BoxLayout:
+            orientation:'horizontal'
+            Button:
+                text:'Login'
+            Button:
+                text:'Signin'
+
+    BoxLayout:
+        orientation:'horizontal'
+        Label:
+            text:'Thanks for joining us'
